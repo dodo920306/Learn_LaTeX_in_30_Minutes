@@ -17,13 +17,40 @@ There's a picture of a galaxy above.
 
 % .aux file is needed for image labelling.
 % Images can be captioned, labelled and referenced by means of the figure environment.
+% h stands for "here," 
+% indicating that LaTeX should try to place the figure approximately at the location in the text where it is defined.
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.75\textwidth]{mesh}
     \caption{A nice plot.}
     \label{fig:mesh1}
-\end{figure} 
+\end{figure}
 
 % Twice compilation is needed for getting the .aux file and correcting references respectively.
 As you can see in figure \ref{fig:mesh1}, the function grows near the origin. This example is on page \pageref{fig:mesh1}.
+
+% t : Places the float at the top of the page.
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=0.75\textwidth]{mesh}
+    \caption{A nice plot.}
+\end{figure}
+
+% b : Places the float at the bottom of the page.
+\begin{figure}[b]
+    \centering
+    \includegraphics[width=0.75\textwidth]{mesh}
+    \caption{A nice plot.}
+\end{figure}
+
+% p : Places the float on a separate page containing only floats.
+\begin{figure}[p]
+    \centering
+    \includegraphics[width=0.75\textwidth]{mesh}
+    \caption{A nice plot.}
+\end{figure}
+
+% If LaTeX cannot find a suitable place for the figure based on the document layout and other content,
+% it will make its own decision on where to place it.
+
 \end{document}

@@ -1,4 +1,5 @@
 \documentclass{article}
+\usepackage{amsmath} % For the equation* environment
 \nofiles
 \begin{document}
 
@@ -35,5 +36,37 @@ Lower case Greek letters are written as $\omega$ $\delta$ etc.
 while upper case Greek letters are written as $\Omega$ $\Delta$.
 
 Mathematical operators are prefixed with a backslash as $\sin(\beta)$, $\cos(\alpha)$, $\log(x)$ etc.
+
+\section{First example}
+
+The well-known Pythagorean theorem \(x^2 + y^2 = z^2\) was proved to be invalid for other exponents, 
+meaning the next equation has no integer solutions for \(n>2\):
+
+\[ x^n + y^n = z^n \]
+
+\section{Second example}
+
+This is a simple math expression \(\sqrt{x^2+1}\) inside text. 
+And this is also the same: 
+\begin{math}
+    \sqrt{x^2+1}
+\end{math}
+but by using another command.
+
+This is a simple math expression without numbering
+\[\sqrt{x^2+1}\] 
+separated from text.
+
+This is also the same:
+\begin{displaymath}
+    \sqrt{x^2+1}
+\end{displaymath}
+
+% \ldots is used in both text and math mode for ellipsis in sentences and mathematical expressions, 
+% while \dots is specifically designed for math mode and is used for ellipsis in sequences, series, and other mathematical contexts.
+\ldots and this:
+\begin{equation*}
+    \sqrt{x^2+1}
+\end{equation*}
 
 \end{document}

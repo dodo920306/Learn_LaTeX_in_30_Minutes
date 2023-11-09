@@ -7,9 +7,9 @@ if [[ $1 == "all" ]]; then
         xelatex $file
     done
 elif [[ $1 == "clear" ]]; then
-    rm -f *.aux
+    rm -f *.pdf
 else
     xelatex $1
     xelatex $1
 fi
-rm -f *.log
+rm -f *.aux *.log *.toc

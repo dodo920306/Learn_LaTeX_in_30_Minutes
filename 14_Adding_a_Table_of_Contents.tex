@@ -1,0 +1,39 @@
+% Table of Contents is catalog.
+\documentclass{article}
+\title{Sections and Chapters}
+\author{Gubert Farnsworth}
+\date{August 2022}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\section{Introduction}
+   
+This is the first section.
+      
+Lorem  ipsum  dolor  sit  amet,  consectetuer  adipiscing  
+elit.   Etiam  lobortisfacilisis sem.  Nullam nec mi et 
+neque pharetra sollicitudin.  Praesent imperdietmi nec ante. 
+Donec ullamcorper, felis non sodales...
+       
+\section*{Unnumbered Section}
+% Sections, subsections and chapters are automatically included in the table of contents.
+% To manually add entries, such as an unnumbered section, use the command \addcontentsline.
+% {toc}: This specifies the type of list to which you want to add the entry
+% {section}: This indicates the level of the entry you're adding.
+\addcontentsline{toc}{section}{Unnumbered Section}
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  
+Etiam lobortis facilisissem.  Nullam nec mi et neque pharetra 
+sollicitudin.  Praesent imperdiet mi necante...
+
+\section{Second Section}
+       
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  
+Etiam lobortis facilisissem.  Nullam nec mi et neque pharetra 
+sollicitudin.  Praesent imperdiet mi necante...
+
+\end{document}
