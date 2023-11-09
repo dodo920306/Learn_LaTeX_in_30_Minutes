@@ -25,7 +25,23 @@ to check if the installation is successful.
 Run
 
 ```bash
-$ xelatex <file name>
+$ ./main.sh <file name>
 ```
 
 to generate the output of each .tex sample file.
+
+Run
+
+```bash
+$ ./main.sh all
+```
+
+to generate the output of all of them at once.
+
+Run
+
+```bash
+$ ./main.sh clear
+```
+
+to reset.
