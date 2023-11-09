@@ -1,0 +1,18 @@
+% Bold: bold text in LaTeX is typeset using the \textbf{...} command.
+% Italics: italicised text is produced using the \textit{...} command.
+% Underline: to underline text use the \underline{...} command.
+\documentclass[12pt, letterpaper]{article}
+\nofiles
+\begin{document}
+Some of the greatest discoveries in science were made by accident.
+
+Some of the \textbf{greatest} discoveries in \underline{science} were made by \textbf{\textit{accident}}.
+% Another very useful command is \emph{argument}, whose effect on its argument depends on the context.
+% Inside normal text, the emphasized text is italicized, but this behaviour is reversed if used inside an italicized text.
+
+Some of the greatest \emph{discoveries} in science were made by accident.
+
+\textit{Some of the greatest \emph{discoveries} in science were made by accident.}
+
+\textbf{Some of the greatest \emph{discoveries} in science were made by accident.}
+\end{document}

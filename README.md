@@ -6,11 +6,11 @@ Check out https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes for mor
 
 ## Prerequisite
 
-Please install TeX Live for compile .tex file.
+Please install TeX Live for compiling .tex files.
 
 Check out https://tug.org/texlive/ for more official information.
 
-Please notice that the installation could take extremely lots of hours seriously.
+Notice that the installation could take extremely lots of hours seriously.
 
 Run
 
@@ -28,4 +28,4 @@ Run
 $ xelatex <file name>
 ```
 
-to check the output of each .tex sample file.
+to generate the output of each .tex sample file.

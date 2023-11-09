@@ -1,0 +1,18 @@
+\documentclass{article}
+% LaTeX package to import graphics
+\usepackage{graphicx}
+% configuring directory path of the graphicx package
+\graphicspath{{images/}}
+\nofiles
+\begin{document}
+The universe is immense and it seems to be homogeneous, on a large scale, everywhere we look.
+
+% The \includegraphcs command is provided (implemented) by the graphicx package
+% it’s considered best practice to omit the file extension
+% because it will prompt LATEX to search for all the supported formats.
+% Generally, the graphic’s file name should not contain white spaces or multiple dots;
+% it is also recommended to use lowercase letters for the file extension when uploading image files to Overleaf.
+\includegraphics{universe}  
+ 
+There's a picture of a galaxy above.
+\end{document}
