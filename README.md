@@ -43,7 +43,7 @@ to generate the output of all of them at once.
 Run
 
 ```bash
-$ ./main.sh clear
+$ ./xelatex.sh clear
 ```
 
 to reset.
