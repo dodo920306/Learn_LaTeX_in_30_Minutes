@@ -4,6 +4,8 @@ These are sample .tex files I learned from following the tutorial provided by Ov
 
 Check out https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes for more official information.
 
+Compile scripts are provided for convenience.
+
 ## Prerequisite
 
 Please install TeX Live for compiling .tex files.
@@ -25,7 +27,7 @@ to check if the installation is successful.
 Run
 
 ```bash
-$ ./main.sh <file name>
+$ ./xelatex.sh <file name>
 ```
 
 to generate the output of each .tex sample file.
@@ -33,7 +35,7 @@ to generate the output of each .tex sample file.
 Run
 
 ```bash
-$ ./main.sh all
+$ ./xelatex.sh all
 ```
 
 to generate the output of all of them at once.
