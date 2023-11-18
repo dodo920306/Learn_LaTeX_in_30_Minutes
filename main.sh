@@ -12,4 +12,4 @@ else
     xelatex $1
     xelatex $1
 fi
-rm -f *.aux *.log *.toc
+rm -f *.aux *.log *.toc *.out
